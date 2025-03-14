@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.pargraph {
+    border: 2px dotted black;
+    margin: 10px;
+    background-color: rgb(243, 248, 253);
+    color: rgb(47, 47, 47);
+    font-family: sans-serif;
+}
+
+.paragraph-title {
+    color: rgb(40, 80, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    border: 1px greenyellow solid;
+}
+
+.date {
+    font-size: smaller;
+    color: rgb(158, 157, 157);
+    background-color: white;
+    border: none;
+}
+
+#page-end-section {
+
+    background-color: azure;
+    margin: 20px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* align-items: center; */
+
+
+}
+
+.page-end-buttons{
+    max-width: 150px;
+    min-width: 100px;
+    margin-inline: auto;
+}
+
+.page-end-buttons:hover{
+    background-color: rgb(140, 140, 244);
+    box-shadow: 5px 2px 4px black;
+    transform: scale(1.2);
+}
+
+
