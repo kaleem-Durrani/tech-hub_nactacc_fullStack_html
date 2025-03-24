@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
+
+    <style>
+      .flex-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: rgb(250, 250, 163);
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .flex-item {
+        background-color: rgb(235, 255, 255);
+        display: flex;
+        flex-direction: row;
+        color: brown;
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        border-radius: 10px;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Flex box example</h1>
+
+    <div class="flex-container">
+      <div class="flex-item">
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+      </div>
+      <div class="flex-item">2</div>
+      <div class="flex-item">3</div>
+      <div class="flex-item">4</div>
+      <div class="flex-item">5</div>
+      <div class="flex-item">6</div>
+    </div>
+  </body>
+</html>
