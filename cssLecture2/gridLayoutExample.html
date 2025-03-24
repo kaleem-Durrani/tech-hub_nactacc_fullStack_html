@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Layout</title>
+
+    <style>
+      .grid-container {
+        background-color: aqua;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 90px auto;
+        gap: 10px;
+        padding: 20px;
+      }
+
+      .grid-item {
+        background-color: bisque;
+        padding: 20px;
+        text-align: center;
+        border-radius: 20px;
+        font-size: 1.2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Basic CSS grid example</h3>
+
+    <div class="grid-container">
+      <div class="grid-item">Item 1</div>
+      <div class="grid-item">Item 1</div>
+      <div class="grid-item">Item 1</div>
+      <div class="grid-item">Item 2</div>
+      <div class="grid-item">Item 2</div>
+      <div class="grid-item">Item 2</div>
+      <div class="grid-item">Item 3</div>
+      <div class="grid-item">Item 3</div>
+      <div class="grid-item">Item 3</div>
+      <div class="grid-item">Item 4</div>
+      <div class="grid-item">Item 4</div>
+      <div class="grid-item">Item 4</div>
+      <div class="grid-item">Item 5</div>
+      <div class="grid-item">Item 5</div>
+      <div class="grid-item">Item 5</div>
+      <div class="grid-item">Item 6</div>
+      <div class="grid-item">Item 6</div>
+      <div class="grid-item">Item 6</div>
+      <div class="grid-item">Item 7</div>
+      <div class="grid-item">Item 7</div>
+      <div class="grid-item">Item 7</div>
+    </div>
+  </body>
+</html>

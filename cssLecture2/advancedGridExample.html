@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Grid</title>
+
+    <style>
+      .grid-container {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        grid-template-rows: 80px 1fr 50px;
+
+        grid-template-areas:
+          "header header"
+          "sidebar main"
+          "footer footer";
+
+        gap: 10px;
+        background-color: beige;
+        padding: 10px;
+        background-color: brown;
+        min-height: calc(100vh - 40px);
+      }
+
+      .header {
+        grid-area: header;
+        background-color: aquamarine;
+      }
+
+      .sidebar {
+        grid-area: sidebar;
+        background-color: antiquewhite;
+      }
+
+      .main {
+        grid-area: main;
+        background-color: cadetblue;
+      }
+
+      .footer {
+        grid-area: footer;
+        background-color: blueviolet;
+      }
+    </style>
+  </head>
+  <body style="background-color: rgb(204, 156, 249)">
+    <!-- <h3>Advanced grid example</h3> -->
+
+    <div class="grid-container">
+      <div class="header">Header</div>
+      <div class="sidebar">Sidebar</div>
+      <div class="main">Main</div>
+      <div class="footer">Footer</div>
+    </div>
+  </body>
+</html>
