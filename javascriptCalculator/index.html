@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css" />
+
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <section class="calculator">
+      <div>
+        <input
+          id="numberInput"
+          class="input"
+          type="text"
+          placeholder="numbers"
+        />
+      </div>
+
+      <div class="button-row">
+        <button class="button" onclick="clearInput()">C</button>
+        <button class="button">%</button>
+        <button class="button" onclick="delPressed()">del</button>
+        <button class="button" onclick="operatorPressed('/')">/</button>
+      </div>
+
+      <div class="button-row">
+        <button class="button" onclick="numberPressed('7')">7</button>
+        <button class="button" onclick="numberPressed('8')">8</button>
+        <button class="button" onclick="numberPressed('9')">9</button>
+        <button class="button" onclick="operatorPressed('*')">X</button>
+      </div>
+
+      <div class="button-row">
+        <button class="button" onclick="numberPressed('4')">4</button>
+        <button class="button" onclick="numberPressed('5')">5</button>
+        <button class="button" onclick="numberPressed('6')">6</button>
+        <button class="button" onclick="operatorPressed('-')">-</button>
+      </div>
+
+      <div class="button-row">
+        <button class="button" onclick="numberPressed('1')">1</button>
+        <button class="button" onclick="numberPressed('2')">2</button>
+        <button class="button" onclick="numberPressed('3')">3</button>
+        <button class="button" onclick="operatorPressed('+')">+</button>
+      </div>
+
+      <div class="button-row">
+        <button class="button" onclick="numberPressed('00')">00</button>
+        <button class="button" onclick="numberPressed('0')">0</button>
+        <button class="button" onclick="dotPressed()">.</button>
+        <button class="button" onclick="equalPressed()">=</button>
+      </div>
+    </section>
+  </body>
+</html>

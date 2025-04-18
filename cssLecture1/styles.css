@@ -4,6 +4,14 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+a {
+    color: blueviolet;
+    background-color: azure;
+    font-size: 40px;
+}
+
+
+
 .pargraph {
     border: 2px dotted black;
     margin: 10px;
@@ -28,16 +36,12 @@
 }
 
 #page-end-section {
-
-    background-color: azure;
+    background-color: rgb(170, 252, 252);
     margin: 20px;
     padding: 5px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    /* align-items: center; */
-
-
 }
 
 .page-end-buttons{
@@ -52,4 +56,9 @@
     transform: scale(1.2);
 }
 
-
+.disabled{
+    color: red;
+    background-color: gray;
+    text-decoration: line-through;
+    
+}
